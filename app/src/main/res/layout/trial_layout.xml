@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+        <com.darotpeacedude.trials.ShimmerImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/grey"
+            app:shime="true"
+            />
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <com.darotpeacedude.trials.LoaderImageView-->
+<!--            android:id="@+id/image_icon"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            app:use_gradient="true"-->
+<!--            app:corners="16" />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/container_text"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_toEndOf="@id/image_icon"-->
+<!--            android:layout_toRightOf="@id/image_icon"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <com.darotpeacedude.trials.LoaderTextView-->
+<!--                android:id="@+id/txt_name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:height_weight="0.8"-->
+<!--                app:use_gradient="true"-->
+<!--                app:width_weight="0.6" />-->
+
+<!--            <com.darotpeacedude.trials.LoaderTextView-->
+<!--                android:id="@+id/txt_title"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:textSize="18dp"-->
+<!--                app:height_weight="0.8"-->
+<!--                app:width_weight="1.0"-->
+<!--                app:corners="32" />-->
+
+<!--            <com.darotpeacedude.trials.LoaderTextView-->
+<!--                android:id="@+id/txt_phone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                app:height_weight="0.8"-->
+<!--                app:width_weight="0.4"-->
+<!--                app:corners="16" />-->
+
+<!--            <com.darotpeacedude.trials.LoaderTextView-->
+<!--                android:id="@+id/txt_email"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                app:height_weight="0.8"-->
+<!--                app:width_weight="0.9"-->
+<!--                app:corners="8"-->
+<!--                app:custom_color="@android:color/holo_green_dark"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    </RelativeLayout>-->
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Stop" />
+</LinearLayout>

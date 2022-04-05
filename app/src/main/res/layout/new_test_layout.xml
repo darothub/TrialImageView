@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+        <com.darotpeacedude.trials.SampleShimmerView
+            android:id="@+id/txt_namea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:corner="20"
+            app:startLoading="@{true}"
+            />
+
+        <com.darotpeacedude.trials.SampleShimmerView
+            android:id="@+id/txt_namea1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_namea"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:corner="20"
+            android:layout_marginTop="10dp"
+            app:startLoading="@{true}"
+            />
+
+        <com.darotpeacedude.trials.SampleShimmerView
+            android:id="@+id/txt_namea2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_namea1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:corner="20"
+            android:layout_marginTop="10dp"
+            app:startLoading="@{true}"
+            />
+
+<!--        <com.darotpeacedude.trials.SampleShimmerView-->
+<!--            android:id="@+id/txt_namea"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:height_wt="0.8"-->
+<!--            app:use_gradt="true"-->
+<!--            app:enable_shimmer="true"-->
+<!--            app:corner="20"-->
+<!--            app:width_wt="1" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCircleView">
+        <attr name="outer_color" format="color"/>
+        <attr name="inner_color" format="color"/>
+        <attr name="size" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="SampleShimmerView">
+        <attr name="shimmer_color" format="color"/>
+        <attr name="width_wt" format="float" />
+        <attr name="height_wt" format="float" />
+        <attr name="use_gradt" format="boolean" />
+        <attr name="corner" format="integer" />
+        <attr name="enable_shimmer" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="loader_view">
+        <attr name="width_weight" format="float" />
+        <attr name="height_weight" format="float" />
+        <attr name="use_gradient" format="boolean" />
+        <attr name="corners" format="integer" />
+        <attr name="custom_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ShimmerImageView">
+        <attr name="shime" format="boolean" />
+        <attr name="srcDrawable" format="reference"/>
+    </declare-styleable>
+</resources>
